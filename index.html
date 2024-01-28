@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Sunrise/Sunset</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body data-mode="day">
+	<main>
+		<div class="message before-dawn">
+			You're in ...<br>
+
+			It's currently <time id="now">...</time><br>
+
+			The sun will rise at <time id="daybreak">...</time><br>
+
+			The sun will set again at <time id="dusk">...</time>
+		</div>
+
+		<div class="message day">
+			You're in ...<br>
+
+			It's currently <time id="now">...</time><br>
+
+			The sun will set at <time id="dusk">...</time><br>
+
+			The sun will rise again at <time id="daybreak">...</time>
+		</div>
+
+		<div class="message after-dusk">
+			You're in ...<br>
+
+			It's currently <time id="now">...</time><br>
+
+			The sun will rise at <time id="daybreak">...</time><br>
+
+			The sun will set again at <time id="dusk">...</time>
+		</div>
+
+	</main>
+	<script src="weatherapi.js"></script>
+</body>	
+</html>

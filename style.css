@@ -1,0 +1,76 @@
+.message{
+	padding-top:40px;
+}
+
+
+									/** BEFORE DAWN **/
+
+[data-mode="beforedawn"]{
+	color:blue;
+}
+
+/**
+
+[data-mode="beforedawn"] .before-dawn{
+	opacity:100;
+	display:block;
+}
+
+[data-mode="beforedawn"] .day{
+	display:none;
+}
+
+[data-mode="beforedawn"] .after-dusk{
+	display:none;
+} 
+
+**/
+
+
+
+
+									/** DAYTIME **/
+
+[data-mode="day"]{
+	color:red;
+}
+
+/**
+
+[data-mode="day"] .before-dawn{
+	display:none;
+}
+
+[data-mode="day"] .day{
+	opacity:100;
+	display:block;
+}
+
+[data-mode="day"] .after-dusk{
+	display:none;
+}
+
+**/
+
+
+									/** AFTER DUSK **/
+
+[data-mode="afterdusk"]{
+	color:purple;
+}
+
+/**
+
+[data-mode="afterdusk"] .before-dawn{
+	display:none;
+}
+
+[data-mode="afterdusk"] .day{
+	display:none;
+}
+
+[data-mode="afterdusk"] .after-dusk{
+	display:block;
+}
+
+**/
